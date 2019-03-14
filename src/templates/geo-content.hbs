@@ -1,0 +1,27 @@
+<div class="popup" id="popup">
+    <div class="popup__header">
+            <span class="popup__header-inner">
+                <i class="fa fa-map-marker popup__header-marker"></i>
+                <span class="popup__header-text" id="popup-address"></span>
+                <i class="fa fa-times btn-close" id="btn-close"></i>
+            </span>
+    </div>
+    <div class="popup__main">
+        <div class="popup__main-reviews" id="reviews">
+            <ul class="review__list" id="reviews-list">
+            </ul>
+        </div>
+        <div class="popup__main-add">
+            <div class="popup__main-add-header">ВАШ ОТЗЫВ</div>
+            <form name="form">
+                <input type="text" id="inputName" name="name" placeholder="Ваше имя" class="popup__input" required="">
+                <input type="text" id="inputPlace" name="place" placeholder="Укажите место"
+                       class="popup__input" required="">
+                <textarea name="message" id="inputReview" placeholder="Поделитесь впечатлениями"
+                          class="popup__textarea" required=""></textarea>
+                <input type="submit" data-add="true" class="save__btn" id="btn" value="Добавить">
+            </form>
+        </div>
+    </div>
+</div>
+<div id="map" style="width: 100vw; height: 100vh"></div>
