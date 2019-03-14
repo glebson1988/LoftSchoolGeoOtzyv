@@ -88,7 +88,8 @@ function createReview(item) {
 function initMap() {
     myMap = new ymaps.Map("map", {
         center: [55.76, 37.64],
-        zoom: 13
+        zoom: 14,
+        controls: []
     });
 
     let clusterer = new ymaps.Clusterer({
