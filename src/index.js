@@ -314,4 +314,3 @@ popupBtn.onclick = () => {
 popupLayout.addEventListener('click', () => {
     modalDnD(popupLayout);
 });
-
